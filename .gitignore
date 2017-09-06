@@ -3,6 +3,6 @@
 .project
 .settings
 target
-src
 *.log
-
+.cache-main
+.cache-tests
