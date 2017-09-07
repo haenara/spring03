@@ -6,7 +6,8 @@ public class DeptSpringExample {
 
 	public static void main(String[] args) {
 
-		GenericXmlApplicationContext ctx = new GenericXmlApplicationContext("classpath:/spring/beans.xml");
+		GenericXmlApplicationContext ctx = 
+				new GenericXmlApplicationContext("classpath:/spring/beans.xml");
 		
 		Dept dept = ctx.getBean(Dept.class);
 		
